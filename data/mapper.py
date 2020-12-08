@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-hfont = ( 'fontname' Arial; )
+hfont = { 'fontname' Arial; }
 
 # draw a simple line chart showing population growth over the last 115 years
 
