@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 
 hfont = { 'fontname' : 'arial' }
 
-labels = 'Men', 'Women'
-sizes = [42, 45]
-explode = (0, 0.1)
+labels = 'Korea', 'Japan'
+sizes = [87, 63]
+explode = (0.1, 0)
 
 fig1, ax1 = plt.subplots()
 ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
